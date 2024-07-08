@@ -1,0 +1,14 @@
+Реализовать классы:
+
+Figure, Circle и Square (Фигура, Круг, Квадрат)
+
+так, что бы работалправильно следующий код.
+
+int main(){
+Circle circ1(1);
+Square sqare1(1);
+Figure* figs[]{&circ1, &sqare1};
+
+cout << "Area of circle: " figs[0].area() << endl;    // 3.1415
+cout << "Area of square: " figs[1].area() << endl; // 1
+}
